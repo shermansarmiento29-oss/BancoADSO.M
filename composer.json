@@ -1,0 +1,22 @@
+{
+    "name": "sherm/banco.adso",
+    "description": "Aplicación bancaria sencilla (login, retiros y transferencias) en PHP + MySQL",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sherman sarmiento",
+            "email": "shermansarmiento29@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    }
+}

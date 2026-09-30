@@ -1,0 +1,98 @@
+/* ===== Banco ADSO - estilos básicos ===== */
+
+* { box-sizing: border-box; }
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tarjeta blanca que contiene cada pantalla */
+.tarjeta {
+    background: #fff;
+    width: 100%;
+    max-width: 360px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.tarjeta.ancha { max-width: 600px; }
+
+h2 { margin-top: 0; text-align: center; color: #333; }
+
+/* Formularios */
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; color: #666; }
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+/* Botones */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn:hover { opacity: 0.9; }
+.btn-verde  { background: #28a745; }
+.btn-rojo   { background: #dc3545; }
+
+/* Mensajes (éxito / error) */
+.mensaje {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.95em;
+}
+.mensaje.exito { background: #d4edda; color: #155724; }
+.mensaje.error { background: #f8d7da; color: #721c24; }
+
+/* Panel principal */
+.saldo-box {
+    background: #e9ecef;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 6px;
+    text-align: center;
+}
+.saldo-box h3 { margin: 0; color: #555; }
+.saldo-box p  { margin: 10px 0 0; font-size: 2em; color: #28a745; }
+
+.acciones { display: flex; flex-direction: column; gap: 10px; }
+
+/* Historiales */
+table { width: 100%; border-collapse: collapse; margin-bottom: 15px; }
+th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align: left; }
+th { background: #f0f0f0; color: #555; }
+td.valor, th.valor { text-align: right; }
+.vacio { text-align: center; color: #777; margin: 20px 0; }
+
+/* Enlace de "volver" */
+.volver {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+}
+.volver:hover { text-decoration: underline; }
