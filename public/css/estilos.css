@@ -1,4 +1,4 @@
-/* ===== Banco ADSO - estilos básicos ===== */
+
 
 * { box-sizing: border-box; }
 
@@ -56,7 +56,7 @@ input {
 .btn-verde  { background: #28a745; }
 .btn-rojo   { background: #dc3545; }
 
-/* Mensajes (éxito / error) */
+/* Mensajes (exito . error) */
 .mensaje {
     padding: 10px;
     margin-bottom: 15px;
